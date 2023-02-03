@@ -12,7 +12,7 @@
     <project name="android_device_samsung_j8y18lte" path="device/samsung/j8y18lte" remote="j8" revision="bananadroid-11" />
     
     <!-- Kernel -->
-    <project path="kernel/samsung/j8y18lte" name="android_kernel_samsung_j8y18lte" remote="j8" revision="lineage-18.1" />
+    <project path="kernel/samsung/j8y18lte" name="Carckv2/android_kernel_samsung_j8y18lte" remote="github" revision="lineage-18.1" />
    
     <!-- Vendor -->
     <project path="vendor/samsung/j8y18lte" name="android_vendor_samsung_j8y18lte" remote="j8" revision="11" />
