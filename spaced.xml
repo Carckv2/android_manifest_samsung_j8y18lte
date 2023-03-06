@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: m10lte
+    * rom: LineageOS 17.1
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/Carckv2/" name="spaced" />
+    
+    <!-- Device -->
+    <project name="android_device_realme_spaced-2" path="device/realme/spaced" remote="spaced" revision="cr-11.0" />
+    
+    <!-- Kernel -->
+    <project path="kernel/realme/spaced" name="DrtSinX98 /android_kernel_realme_mt6781 " remote="github" revision="eleven" />
+   
+    <!-- Vendor -->
+    <project path="vendor/realme/spaced" name="HELLINFIX/vendor_oss_realme" remote="github" revision="thirteen" />
+    
+</manifest>
